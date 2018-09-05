@@ -1,0 +1,40 @@
+Script iniciado en 2018-09-05 20:10:10-03:00
+]0;emilio@nachichuri:~/.config/i3[01;32m[emilio@nachichuri[01;37m i3[01;32m]$[00m gti[K[Kit init
+Inicializado repositorio Git vacío en /home/emilio/.config/i3/.git/
+]0;emilio@nachichuri:~/.config/i3[01;32m[emilio@nachichuri[01;37m i3[01;32m]$[00m git add .
+]0;emilio@nachichuri:~/.config/i3[01;32m[emilio@nachichuri[01;37m i3[01;32m]$[00m git status
+En la rama master
+
+No hay commits todavía
+
+Cambios a ser confirmados:
+  (usa "git rm --cached <archivo>..." para sacar del área de stage)
+
+	[32mnuevo archivo:  config[m
+	[32mnuevo archivo:  gitsetup.log[m
+	[32mnuevo archivo:  i3blocks.conf[m
+	[32mnuevo archivo:  time.log[m
+
+]0;emilio@nachichuri:~/.config/i3[01;32m[emilio@nachichuri[01;37m i3[01;32m]$[00m git commit -m 0[K'Initial commit'
+[master (commit-raíz) 2eb7ee8] Initial commit
+ 4 files changed, 355 insertions(+)
+ create mode 100644 config
+ create mode 100644 gitsetup.log
+ create mode 100644 i3blocks.conf
+ create mode 100644 time.log
+]0;emilio@nachichuri:~/.config/i3[01;32m[emilio@nachichuri[01;37m i3[01;32m]$[00m git remote
+]0;emilio@nachichuri:~/.config/i3[01;32m[emilio@nachichuri[01;37m i3[01;32m]$[00m git remote add origin https://github.com/Nachichuri/dotfiles.git
+]0;emilio@nachichuri:~/.config/i3[01;32m[emilio@nachichuri[01;37m i3[01;32m]$[00m gti[K[Kit remote
+origin
+]0;emilio@nachichuri:~/.config/i3[01;32m[emilio@nachichuri[01;37m i3[01;32m]$[00m git push -u origin master
+To https://github.com/Nachichuri/dotfiles.git
+ [31m! [rejected]       [m master -> master (fetch first)
+[31merror: falló el push de algunas referencias a 'https://github.com/Nachichuri/dotfiles.git'
+[m[33mayuda: Actualizaciones fueron rechazadas porque el remoto contiene trabajo que[m
+[33mayuda: no existe localmente. Esto es causado usualmente por otro repositorio [m
+[33mayuda: realizando push a la misma ref. Quizás quiera integrar primero los cambios[m
+[33mayuda: remotos (ej. 'git pull ...') antes de volver a hacer push.[m
+[33mayuda: Vea 'Notes about fast-forwards0 en 'git push --help' para detalles.[m
+]0;emilio@nachichuri:~/.config/i3[01;32m[emilio@nachichuri[01;37m i3[01;32m]$[00m exit
+
+Script terminado en 2018-09-05 20:11:33-03:00
