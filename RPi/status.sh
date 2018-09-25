@@ -15,6 +15,18 @@ echo ""
 echo "\033[1mSesiones de tmux:\033[0m"
 tmux list-sessions
 
-# Explicación del formato para bold:
-
 exit 0
+
+# Explicación del formato para bold:
+# \033 - escaped sequence represents beginning/ending of the style
+# lowercase m - indicates the end of he sequence
+# [0m - resets all attributes, colors, formatting, etc.
+#
+# The possible integers are:
+# 0 - Normal Style
+# 1 - Bold
+# 2 - Dim
+# 4 - Underlined
+# 5 - Blinking
+# 7 - Reverse
+# 8 - Invisible
